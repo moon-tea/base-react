@@ -1,0 +1,147 @@
+@import '../../common/colors';
+//@import '../../common/variables';
+
+$button-height: 45px;
+
+button:focus {
+  outline:0;
+}
+
+.btn {
+  cursor: pointer;
+  border: 1px solid $gray-lighter;
+  border-radius: 5px;
+  background-color: $gray-bkg;
+  padding: 0 30px;
+  min-width: 60px;
+  height: $button-height;
+  color: $gray-darker;
+  font-size: 15px;
+  line-height: $button-height;
+
+
+  &:disabled {
+    cursor: auto;
+  }
+
+  &--default {
+    border-color: $gray-lightest;
+    background-color: $gray-lightest;
+    color: $black;
+
+    &:hover {
+      border-color: $gray-light;
+      background-color: $gray-lighter;
+    }
+    &:active {
+      border-color: $gray-light;
+      background-color: $gray;
+    }
+    &:disabled {
+      border-color: $gray;
+      background-color: $gray-light;
+    }
+  }
+
+  &--primary {
+    border-color: $blue-dark;
+    background-color: $blue;
+    color: $white;
+
+    &:hover {
+      border-color: $blue;
+      background-color: $blue-light;
+    }
+    &:active {
+      border-color: $blue;
+      background-color: $blue-dark;
+    }
+    &:disabled {
+      border-color: $blue-light;
+      background-color: $blue-light;
+    }
+  }
+
+  &--warning {
+    border-color: $orange-dark;
+    background-color: $orange;
+    color: $white;
+
+    &:hover {
+      border-color: $orange;
+      background-color: $orange-light;
+    }
+    &:active {
+      border-color: $orange;
+      background-color: $orange-dark;
+    }
+    &:disabled {
+      border-color: $orange;
+      background-color: $orange-light;
+    }
+  }
+
+  &--danger {
+    border-color: $red-dark;
+    background-color: $red;
+    color: $white;
+
+    &:hover {
+      border-color: $red;
+      background-color: $red-light;
+    }
+    &:active {
+      border-color: $red;
+      background-color: $red-dark;
+    }
+    &:disabled {
+      border-color: $red;
+      background-color: $red-light;
+    }
+  }
+
+  &--shadow {
+    opacity: 0.6;
+    border-color: $gray-lighter;
+    background-color: rgba(245, 247, 247, 0.15); /* $gray-bkg with 15% opacity*/
+    color: $white;
+  }
+
+  &--link {
+    border: 0;
+    background-color: transparent;
+    color: $blue;
+    text-decoration: underline;
+
+    &:hover {
+      background-color: $gray-bkg;
+      color: $blue-light;
+    }
+    &:active {
+      background-color: $gray-lightest;
+      color: $blue-dark;
+    }
+    &:disabled {
+      background-color: transparent;
+      color: $blue;
+    }
+  }
+
+  &--block {
+    display: block;
+  }
+
+  &--small {
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  &--wide {
+    width: 180px;
+  }
+
+  &:disabled {
+    cursor: auto;
+  }
+}

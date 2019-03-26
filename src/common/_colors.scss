@@ -1,0 +1,53 @@
+/// Primary Color Palette
+// ==================================================
+$blue-bkg:      #ACF1FF;
+$blue-light:    #59E3FF;  // rgba (89, 227, 255, 1)
+$blue:          #00D4FF;  // rgba (0, 212, 255, 1)
+$blue-dark:     #00B5D9;
+
+$red-bkg:       #FECBFF;
+$red-light:     #FC59FF;
+$red:           #FA00FF;
+$red-dark:      #D400D9;
+
+$orange-bkg:    #FFE8BA;
+$orange-light:  #FFC859;
+$orange:        #FFAA00;
+$orange-dark:   #D99000;
+
+$green-bkg:     #D1FFC6;
+$green-light:   #7DFD5D;
+$green:         #32D409;
+$green-dark:    #239A05;
+
+$yellow-bkg:    #FEFFC7;
+$yellow-light:  #FDFF91;
+$yellow:        #FBFF50;
+$yellow-dark:   #C1C420;
+
+// Primary Gray Scale Palette
+// ==================================================
+$white:         white;    // rgba(255,255,255,1)
+$gray-bkg:      #F5F7F7;  // rgba(245,247,247,1)
+$gray-lightest: #CED7D9;  // rgba(206,215,217,1)
+$gray-lighter:  #ACBCBF;  // rgba(172,188,191,1)
+$gray-light:    #95A3A6;  // rgba(149,163,166,1)
+$gray:          #7E8A8C;  // rgba(126,138,140,1)
+$gray-dark:     #677173;  // rgba(103,113,115,1)
+$gray-darker:   #505859;  // rgba(80,88,89,1)
+$gray-darkest:  #393F40;  // rgba(57,63,64,1)
+$black:         #222626;  // rgba(34,38,38,1)
+$black-true:    #000;     // rgba(0,0,0,1)
+
+// Brand Colors
+// ==================================================
+$brand-primary: $blue;
+$brand-secondary: $blue;
+
+// Utility Colors
+// ==================================================
+$success: $green;
+$caution: $orange;
+$danger: $red;
+$default: $blue;
+
