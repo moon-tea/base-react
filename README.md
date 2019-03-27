@@ -49,3 +49,9 @@ You might need to run `npm install babel-preset-stage-0` if you want to use the 
 -   `node-sass` this allows us to use sass/scss.
 -   `classnames` this allows us to use merge classes together without string interpolation.
 -   `enzyme` and `jest-enzyme` allows us to mount components and dig into their properties for testing.
+-   `react-router` for SPA features
+-   `redux` for a global state store, just in case
+
+Possible Enchancements:
+
+-   IE 9-11 support through polyfills and other tools such as post-css.

@@ -9,7 +9,11 @@
         "node-sass": "^4.11.0",
         "react": "^16.8.5",
         "react-dom": "^16.8.5",
-        "react-scripts": "2.1.8"
+        "react-redux": "^6.0.1",
+        "react-router-dom": "^5.0.0",
+        "react-scripts": "2.1.8",
+        "redux": "^4.0.1",
+        "redux-thunk": "^2.3.0"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -33,7 +37,10 @@
         "@storybook/addon-links": "^5.0.5",
         "@storybook/react": "^5.0.5",
         "enzyme": "^3.9.0",
-        "enzyme-adapter-react-16": "^1.11.2"
+        "enzyme-adapter-react-16": "^1.11.2",
+        "redux-devtools": "^3.5.0",
+        "redux-devtools-extension": "^2.13.8",
+        "storybook-react-router": "^1.0.4"
     },
     "jest": {
         "collectCoverageFrom": [
