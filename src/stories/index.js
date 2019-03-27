@@ -9,6 +9,8 @@ import { Button, Welcome } from '@storybook/react/demo';
 import * as App from './app.stories';
 import * as MyButton from './button.stories.jsx';
 import * as TestContainer from './testContainer.stories.jsx';
+import * as QuestionList from './questionList.stories.jsx';
+import * as MultipleChoice from './multipleChoice.stories.jsx';
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
