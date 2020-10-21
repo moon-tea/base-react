@@ -30,7 +30,10 @@ class App extends Component {
                             </a>
                         </header>
                     </Route>
-                    <Route render={() => <Button clickFn={() => {}} />} />
+                    <Route exact path="/new">
+                        <h1> Hello World </h1>
+                    </Route>
+                    {/*<Route render={() => <Button clickFn={() => {}} />} />*/}
                 </Router>
             </div>
         );

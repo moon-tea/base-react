@@ -18,13 +18,13 @@ export class MutlipleChoice extends Component {
     }
 
     componentDidMount() {
-        api.getQuestion(this.props.match.params.id).then(response => {
+        api.getQuestion(this.props.match.params.id).then((response) => {
             console.log(response);
             this.setState({
                 question: response,
             });
         });
-        api.getAnswer(this.props.match.params.id).then(response => {
+        api.getAnswer(this.props.match.params.id).then((response) => {
             console.log(response);
             this.setState({
                 answers: response,
@@ -37,15 +37,14 @@ export class MutlipleChoice extends Component {
         return (
             <div>
                 <h1>question {this.state.question.id}</h1>
-                {
-                    <ol>
-                        {this.state.answers.map(answer => (
-                            <li key={answer.id} onClick={() => console.log(answer.isCorrect)}>
-                                {answer.title}
-                            </li>
-                        ))}
-                    </ol>
-                }
+                <p>{this.state.question.title}</p>
+                <ol>
+                    {this.state.answers.map((answer) => (
+                        <li key={answer.id} onClick={() => console.log(answer.isCorrect)}>
+                            {answer.title}
+                        </li>
+                    ))}
+                </ol>
             </div>
         );
     }
